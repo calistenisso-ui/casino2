@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/lever"
+    },
+    "entries": [
+      {
+        "threshold": 4001,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/lever_up"
+        }
+      },
+      {
+        "threshold": 4002,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/lever_down"
+        }
+      }
+    ]
+  }
+}

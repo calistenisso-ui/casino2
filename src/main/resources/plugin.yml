@@ -1,0 +1,22 @@
+name: RoulettePlugin
+version: 1.0.0
+main: com.example.roulette.RoulettePlugin
+api-version: '1.21'
+commands:
+  roulette:
+    description: Gestisce l'NPC della roulette (la GUI si apre solo con tasto destro sull'NPC)
+    usage: /roulette spawn
+  chips:
+    description: Gestisce le chips
+    usage: /chips [add|subtract] <player> <amount>
+    permission: roulette.chips
+permissions:
+  roulette.admin:
+    description: Permette di spawnare l'NPC della roulette
+    default: op
+  roulette.use:
+    description: Permette di usare la roulette
+    default: true
+  roulette.chips:
+    description: Permette di gestire le chips
+    default: op
