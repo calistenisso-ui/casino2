@@ -1,0 +1,19 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "": -32
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/casino_bg.png",
+      "ascent": 16,
+      "height": 256,
+      "chars": [
+        ""
+      ]
+    }
+  ]
+}
